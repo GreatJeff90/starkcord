@@ -1,0 +1,91 @@
+body {
+  background-color: #0D082F; /* Dark background color */
+  color: #ffffff; /* Default text color */
+}
+
+.navbar {
+  background-color: #0D082F;
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #ff0077;
+}
+
+.btn-connect {
+  background-color: #C03496;
+  color: #ffffff;
+  border-radius: 30px;
+}
+
+.btn-connect:hover {
+  background-color: #e6006f;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h1 {
+  font-size: 4.75rem;
+  font-weight: bold;
+  color: #AA2E89;
+}
+
+.hero-section p {
+  font-size: 3rem;
+  color: #d1d1d1;
+  margin-top: 15px;
+}
+
+.btn-get-started {
+  background-color: #ff0077;
+  color: #ffffff;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.btn-get-started:hover {
+  background-color: #e6006f;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 20px;
+}
+
+/* Goal Section */
+.goal-section {
+  padding: 50px 20px;
+}
+
+.goal-section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.goal-section .highlight {
+  color: #ff0077; /* Highlighted color */
+  font-weight: bold;
+}
+
+.goal-section p {
+  color: #d1d1d1;
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+
+.goal-image img {
+  max-width: 100%;
+  border-radius: 20px;
+}
