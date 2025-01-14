@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Your Profile</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <style>
+    body {
+      background: linear-gradient(to top, #170E2C, #5C1849);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .sidebar {
+      width: 250px;
+      background-color: #511E4D;
+      height: 100vh;
+      padding: 20px 15px;
+      position: fixed;
+      z-index: 1000;
+    }
+
+    .sidebar h3 {
+      color: #fff;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+
+    .sidebar a {
+      display: flex;
+      align-items: center;
+      color: #fff;
+      text-decoration: none;
+      margin: 15px 0;
+      font-size: 16px;
+      transition: color 0.3s;
+    }
+
+    .sidebar a i {
+      margin-right: 10px;
+    }
+
+    .sidebar a:hover {
+      color: #c03496;
+    }
+
+    .header {
+      background: url('./images/image\ 8.png') no-repeat center center;
+      background-size: cover;
+      text-align: center;
+      padding: 100px 20px;
+      margin-left: 250px;
+      color: #fff;
+      position: relative;
+    }
+
+    .header::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 1;
+    }
+
+    .header h1 {
+      font-size: 3rem;
+      font-weight: bold;
+      z-index: 2;
+      position: relative;
+    }
+
+    .header p {
+      font-size: 1.2rem;
+      z-index: 2;
+      position: relative;
+    }
+
+    .container-main {
+      margin-left: 260px;
+      padding: 20px;
+    }
+
+    .profile-form label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .profile-form input, 
+    .profile-form textarea {
+      background-color: #4E3A58;
+      color: #fff;
+      border: none;
+      border-radius: 50px;
+      padding: 11px;
+      width: 100%;
+      margin-bottom: 15px;
+      font-size: 16px;
+    }
+
+    .profile-form textarea {
+      resize: none;
+      height: 50px;
+    }
+
+    .btn-submit {
+      background-color: #c03496;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 50px;
+      border: none;
+      font-weight: bold;
+      width: 50%;
+      transition: background-color 0.3s;
+    }
+
+    .btn-submit:hover {
+      background-color: #ff0077;
+    }
+
+    @media (max-width: 768px) {
+      .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+      }
+
+      .container-main {
+        margin-left: 0;
+      }
+
+      .header {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <a class="navbar-brand" href="index.html">
+        <img
+            src="images/logo.png"
+            alt="Starkcord"
+            class="me-2"
+            style="width: 40px; height: 40px;"
+          />
+          <span class="text-white fs-5">Starkcord</span>
+      </a>
+    <a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+    <a href="#"><i class="fas fa-clipboard-list"></i> My Applications</a>
+    <a href="#"><i class="fas fa-envelope"></i> Messages</a>
+    <a href="#"><i class="fas fa-bell"></i> Notifications</a>
+    <a href="#"><i class="fas fa-cog"></i> Settings</a>
+    <a href="#"><i class="fas fa-headset"></i> Contact Us</a>
+  </div>
+
+  <div class="header">
+    <h1>Create Your Profile</h1>
+    <p>Let’s build your profile to connect with the funding pool.</p>
+  </div>
+
+  <div class="container-main">
+    <h2 class="mb-4"></h2>
+    <form class="profile-form">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="companyName">Company Name</label>
+          <input type="text" id="companyName" name="companyName">
+        </div>
+        <div class="col-md-6">
+          <label for="companyLogo">Upload Company Logo</label>
+          <input type="file" id="companyLogo" name="companyLogo">
+        </div>
+        <div class="col-md-6">
+          <label for="description">Add a Description</label>
+          <textarea id="description" name="description"></textarea>
+        </div>
+        <div class="col-md-6">
+          <label for="websiteUrl">Website URL</label>
+          <input type="url" id="websiteUrl" name="websiteUrl">
+        </div>
+        <div class="col-md-6">
+          <label for="businessType">Business Type</label>
+          <input type="text" id="businessType" name="businessType">
+        </div>
+        <div class="col-md-6">
+          <label for="employees">Number of Employees</label>
+          <input type="number" id="employees" name="employees">
+        </div>
+        <div class="col-md-6">
+          <label for="pitchDeck">Upload Pitch Deck</label>
+          <input type="file" id="pitchDeck" name="pitchDeck">
+        </div>
+        <div class="col-md-6">
+          <label for="documents">Upload Other Documents</label>
+          <input type="file" id="documents" name="documents">
+        </div>
+        <div class="col-md-6">
+          <label for="tractions">Tractions Achieved So Far</label>
+          <input type="text" id="tractions" name="tractions">
+        </div>
+        <div class="col-md-6">
+          <label for="milestone">Next Milestone</label>
+          <input type="text" id="milestone" name="milestone">
+        </div>
+        <div class="col-12">
+          <label for="socialMedia">Social Media Links</label>
+          <input type="url" id="socialMedia" name="socialMedia">
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn-submit">Join Funding Pool</button>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

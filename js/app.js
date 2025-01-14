@@ -1,25 +1,25 @@
-// Function to validate login details
-function validateLogin() {
-    var matricNumber = document.getElementById('matricNumber').value; // Updated ID
-    var password = document.getElementById('password').value;
-    var errorMessage = document.getElementById('errorMessage');
-    
-    // Clear any previous error messages
-    errorMessage.innerHTML = '';
+document.addEventListener("DOMContentLoaded", () => {
+  const tabButtons = document.querySelectorAll(".tab-btn");
+  const tabContents = document.querySelectorAll(".tab-content");
 
-    // Matric number validation: Must not be empty
-    if (!matricNumber) {
-        errorMessage.innerHTML = "Please enter your matric number.";
-        return;
-    }
+  tabButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      // Remove active class from all buttons
+      tabButtons.forEach(btn => btn.classList.remove("active"));
 
-    // Password validation: must be at least 8 characters
-    if (password.length < 8) {
-        errorMessage.innerHTML = "Password must be at least 8 characters long.";
-        return;
-    }
+      // Add active class to the clicked button
+      button.classList.add("active");
 
-    // If validation passes, redirect to profile.html
-    window.location.href = 'profile.html';
-}
+      // Get the corresponding tab ID from the button's data-tab
+      const targetTab = button.getAttribute("data-tab");
+
+      // Hide all tab contents
+      tabContents.forEach(content => content.classList.add("d-none"));
+
+      // Show the corresponding tab content
+      document.getElementById(`${targetTab}-tab`).classList.remove("d-none");
+    });
+  });
+});
+
 

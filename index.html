@@ -9,13 +9,21 @@
     rel="stylesheet"
   >
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg">
-    <div class="container">
-      <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="StarkCord Logo" width="200px">
+    <div class="container align-items-center ">
+      <a class="navbar-brand" href="index.html">
+        <img
+            src="images/logo.png"
+            alt="Starkcord"
+            class="me-2"
+            style="width: 40px; height: 40px;"
+          />
+          <span class="text-white fs-5">Starkcord</span>
       </a>
       <button
         class="navbar-toggler"
@@ -29,18 +37,18 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-center">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="about.html">About Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Resources</a>
+            <a class="nav-link" href="resources.html">Resources</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-connect" href="#">Connect Wallet</a>
+            <a class="btn btn-connect" href="signup.html">Get Started</a>
           </li>
         </ul>
       </div>
@@ -70,13 +78,209 @@
           </p>
         </div>
         <div class="col-md-6 text-center">
-          <img src="images/target 2 1.png" alt="Goal Image" class="img-fluid w-50">
+          <img src="images/target 2 1.png" alt="Goal Image" class="img-fluid w-75">
         </div>
       </div>
     </div>
   </section>
 
+  <section class="how-it-works">
+  <div class="container text-center mb-5 pb-5">
+    <h1 class="mb-4">How It Works</h1>
+
+    <!-- Tabs -->
+    <div class="tab-switch mb-3">
+      <div class="switch-slider"></div>
+      <button class="tab-btn active" data-tab="investors">Investors</button>
+      <button class="tab-btn" data-tab="startups">Startups</button>
+    </div>
+
+
+    <!-- Investors Section -->
+    <div class="row tab-content" id="investors-tab">
+      <!-- Steps Section -->
+      <div class="col-md-6">
+        <div class="custom-card">
+          <h2 class="mb-3">For Investors</h2>
+          <ul class="text-start">
+            <li>Sign up by clicking the "Get Started" button.</li>
+            <li>Customize your dashboard to the type of startups or businesses you want to invest in.</li>
+            <li>Connect your wallet by clicking the "Connect Wallet" button on your dashboard.</li>
+            <li>Select the startup you want to invest in.</li>
+            <li>Choose the token you prefer to use for your investment.</li>
+            <li>Approve the transaction and contribute to helping startups achieve their business goals.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Image Section -->
+      <div class="col-md-6 text-center">
+        <img src="images/investor 1.png" alt="Investor working" class="img-fluid w-75">
+      </div>
+    </div>
+
+    <!-- Startups Section -->
+    <div class="row tab-content d-none" id="startups-tab">
+      <!-- Image Section -->
+      <div class="col-md-6 text-center">
+        <img src="images/image 2.png" alt="Startup working" class="img-fluid w-75">
+      </div>
+
+      <!-- Steps Section -->
+      <div class="col-md-6">
+        <div class="custom-card">
+          <h2 class="mb-3">For Startups</h2>
+          <ul class="text-start">
+            <li>Sign up by clicking the "Get Started" button.</li>
+            <li>Create your profile and complete the ID verification process.</li>
+            <li>Connect your wallet by clicking the "Connect Wallet" button on your dashboard.</li>
+            <li>Select the startup you want to invest in.</li>
+            <li>Choose a business niche that aligns with your goals.</li>
+            <li>Submit your proposal or funding request for review.</li>
+            <li>Wait for approval to move forward.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- testimonial section-->
+<section class="testimonials py-5 fs-4">
+  <div class="container text-center">
+    <h2 class="mb-3">Testimonials</h2>
+    <p class="mb-4">Here’s what startups have to say about us</p>
+
+    <!-- Carousel -->
+    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Testimonial 1 -->
+        <div class="carousel-item active">
+          <div class="testimonial-card mx-auto p-4">
+            <img
+              src="images/testimonials.png"
+              alt="Divine LaVinci"
+              class="rounded-3 mb-3 img-fluid"
+              style="width: 120px; height: 120px; object-fit: cover;"
+            />
+            <h4 class="mb-1">Divine LaVinci</h4>
+            <p>Founder of LaVinci Hotels</p>
+            <p class="testimonial-text">
+              <span class="quote">"</span>
+              Nuestra plataforma conecta a inversores con startups innovadoras para financiar sus sueños y hacer realidad sus ambiciones. Únete a nuestra comunidad y descubre oportunidades de inversión en proyectos emocionantes.
+              <span class="quote">"</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Testimonial 2 -->
+        <div class="carousel-item">
+          <div class="testimonial-card mx-auto p-4">
+            <img
+              src="images/testimonials.png"
+              alt="John Doe"
+              class="rounded-3 mb-3 img-fluid"
+              style="width: 120px; height: 120px; object-fit: cover;"
+            />
+            <h4 class="mb-1">John Doe</h4>
+            <p>Founder of Startup X</p>
+            <p class="testimonial-text">
+              <span class="quote">"</span>
+              Using this platform, we connected with investors who believed in our vision. Their support turned our dream into a reality. Highly recommended!
+              <span class="quote">"</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="carousel-item">
+          <div class="testimonial-card mx-auto p-4">
+            <img
+              src="images/testimonials.png"
+              alt="Jane Smith"
+              class="rounded-3 mb-3 img-fluid"
+              style="width: 120px; height: 120px; object-fit: cover;"
+            />
+            <h4 class="mb-1">Jane Smith</h4>
+            <p>CEO of FutureTech</p>
+            <p class="testimonial-text">
+              <span class="quote">"</span>
+              This platform helped us secure the funding we needed to expand globally. It was a game-changer for our business.
+              <span class="quote">"</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<!--footer section-->
+<footer class="footer py-4">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Logo and Social Icons -->
+      <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+        <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+          <img
+            src="images/logo.png"
+            alt="Starkcord"
+            class="me-2"
+            style="width: 40px; height: 40px;"
+          />
+          <span class="text-white fs-5">Starkcord</span>
+        </div>
+        <div class="social-icons mt-3">
+          <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="text-white me-3"><i class="bi bi-twitter"></i></a>
+          <a href="#" class="text-white"><i class="bi bi-x"></i></a>
+        </div>
+      </div>
+
+      <!-- Newsletter Subscription -->
+      <div class="col-md-4 text-center mb-3 mb-md-0">
+        <p class="text-white mb-2 ">Subscribe to our Newsletter</p>
+        <form class="d-flex justify-content-center">
+          <input
+            type="email"
+            class="form-control rounded-start me-2"
+            placeholder="Email"
+            style="max-width: 250px;"
+          />
+          <button type="submit" class="btn btn-primary rounded-end">Subscribe</button>
+        </form>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="col-md-4 text-center text-md-end fs-2">
+        <div class="footer-links d-flex justify-content-center justify-content-md-end fs-2">
+          <a href="#" class="text-white me-3">About Us</a>
+          <a href="#" class="text-white me-3">Protocol Security</a>
+          <a href="#" class="text-white me-3">Terms of Service</a>
+          <a href="#" class="pink">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-  <script src="js/scripts.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
