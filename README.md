@@ -53,7 +53,7 @@ StarkCord offers a secure and efficient platform built on the **elite internet b
 ---
 
 ## 📜 Get Started
-1. **Visit Our Platform**: [StarkCord](#)
+1. **Visit Our Platform**: [StarkCord](https://starkcord.netlify.app/)
 2. **Sign Up**: Create your profile as a startup, entrepreneur, or investor.
 3. **Explore Opportunities**: Discover funding opportunities or support innovative ideas.
 4. **Raise Funds**: Tokenize your business idea and start securing investments.
@@ -79,7 +79,7 @@ We welcome contributions to improve StarkCord! Whether you're a developer, inves
 Have questions or need support?  
 Reach out to us through:
 - **Email**: [support@starkcord.com](mailto:support@starkcord.com)
-- **Website**: [www.starkcord.netlify.app](#)
+- **Website**: [www.starkcord.netlify.app](https://starkcord.netlify.app/)
 
 ---
 
