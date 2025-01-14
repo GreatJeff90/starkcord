@@ -15,6 +15,16 @@
       /* height: 100vh; */
       margin: 0;
     }
+
+    .card-link {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .card-link:hover {
+      color: #ff0077;
+    }
+
     .signup-card {
       background-color: #0D082F;
       border-radius: 8px;
@@ -104,7 +114,10 @@
 </head>
 <body>
   <div class="signup-card">
-    <h3 class="mb-4">Signup to StarkCord</h3>
+    <a href="index.html" class="card-link">
+      <h3 class="mb-4">Signup to StarkCord</h3>
+    </a>
+    
     <p>Create an account with Google or create an account manually.</p>
     <button class="btn btn-custom btn-google w-100">
       <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google" style="height: 20px; margin-right: 10px;"> Google

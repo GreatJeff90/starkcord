@@ -23,3 +23,8 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+// sidebar toggle
+ function toggleSidebar() {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('show');
+    }
