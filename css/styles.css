@@ -9,7 +9,7 @@ body {
 
 .navbar-brand, .nav-link {
   color: #ffffff;
-   font-size: 1.25rem;
+  font-size: 1.25rem;
 }
 
 .navbar-toggler {
@@ -120,10 +120,10 @@ body {
 }
 
 .how-it-works {
-    background: linear-gradient(to right,  #1c1035, #611b6a);
-            color: white;
-            font-family: Arial, sans-serif;
-            padding: 20px;
+  background: linear-gradient(to right,  #1c1035, #611b6a);
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
 }
 
 .tab-switch {
@@ -166,54 +166,54 @@ body {
   z-index: 1;
 }
 
-
 .tab-btn {
-            background-color: #fff;
-            border: none;
-            color: #C03496;
-            border-radius: 20px;
-            padding: 5px 15px;
-            cursor: pointer;
-            font-weight: bold;
-        }
+  background-color: #fff;
+  border: none;
+  color: #C03496;
+  border-radius: 20px;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
 
-      .tab-btn.active {
-            background-color: #C03496;
-            color: #fff;
-        }
+.tab-btn.active {
+  background-color: #C03496;
+  color: #fff;
+}
 
-        .custom-card {
-            /* background-color: #5A5C7C; */
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            font-size: 1.2rem;
-        }
+.custom-card {
+  /* background-color: #5A5C7C; */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 1.2rem;
+}
 
-        .custom-card ul li {
-          list-style: none;
-          margin-bottom: 10px;
-        }
+.custom-card ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}
 
-        .action-btn {
-            background-color: #C45DFF;
-            border: none;
-            border-radius: 30px;
-            color: white;
-            padding: 10px 20px;
-            margin: 10px;
-            text-transform: uppercase;
-            font-weight: bold;
-            display: inline-block;
-        }
+.action-btn {
+  background-color: #C45DFF;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: inline-block;
+}
 
-        .action-btn:hover {
-            background-color: #a346cc;
-        }
+.action-btn:hover {
+  background-color: #a346cc;
+}
 
-        img {
-            border-radius: 10px;
-        }
+img {
+  border-radius: 10px;
+}
+
 .testimonials {
   background-color: #1c1035; /* Dark background */
   color: #fff;
@@ -231,7 +231,6 @@ body {
   font-size: 1.3rem;
   margin-top: 70px;
 }
-
 
 .quote {
   font-size: 2.5rem;
@@ -255,6 +254,7 @@ body {
 .carousel-control-next-icon {
   transform: rotate(45deg); /* Rotate for right arrow */
 }
+
 .footer {
   background: linear-gradient(to right, #6e007b, #0d013b);
 }
@@ -294,7 +294,6 @@ body {
   text-decoration: underline;
 }
 
-
 .about-us-section {
   /* background-color: #; */
   color: #FFFFFF;
@@ -323,29 +322,32 @@ body {
 }
 
 .teams {
-   background: linear-gradient(to right,  #1c1035, #611b6a);
+  background: linear-gradient(to right,  #1c1035, #611b6a);
 }
 
 .team-card {
-            text-align: center;
-            padding: 2rem;
-            border-radius: 15px;
-        }
-        .team-member {
-            margin: 1rem 0;
-            text-align: center;
-        }
-        .team-member img {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            border: 3px solid #fff;
-        }
-        .role {
-            font-size: 1.1rem;
-            font-weight: bold;
-            margin-top: 0.5rem;
-        }
+  text-align: center;
+  padding: 2rem;
+  border-radius: 15px;
+}
+
+.team-member {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.team-member img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.role {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 0.5rem;
+}
 
 @media (max-width: 768px) {
   .about-us-section h2 {
@@ -360,54 +362,60 @@ body {
 }
 
 .resources {
-            background:inherit;
-            color: white;
-            font-family: Arial, sans-serif;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .resources-container {
-            text-align: center;
-        }
-        .search-bar input {
-            width: 80%;
-            max-width: 400px;
-            border-radius: 30px;
-            padding: 0.5rem 1rem;
-            border: none;
-            outline: none;
-            background-color: rgba(255, 255, 255, 0.2);
-            color: white;
-        }
-        .search-bar input::placeholder {
-            color: rgba(255, 255, 255, 0.6);
-        }
-        .search-bar .search-icon {
-            position: relative;
-            left: -40px;
-            color: rgba(255, 255, 255, 0.6);
-        }
-        .placeholder-icon {
-            margin: 2rem 0;
-        }
+  background: inherit;
+  color: white;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
- .modal-content {
-            background: linear-gradient(135deg, #4b0082, #00008b);
-            color: white;
-            border: none;
-        }
-        .wallet-options img {
-            width: 50px;
-            height: 50px;
-        }
-        .wallet-options div {
-            text-align: center;
-            margin: 10px;
-        }
+.resources-container {
+  text-align: center;
+}
 
-        
+.search-bar input {
+  width: 80%;
+  max-width: 400px;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.search-bar input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-bar .search-icon {
+  position: relative;
+  left: -40px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.placeholder-icon {
+  margin: 2rem 0;
+}
+
+.modal-content {
+  background: linear-gradient(135deg, #4b0082, #00008b);
+  color: white;
+  border: none;
+}
+
+.wallet-options img {
+  width: 50px;
+  height: 50px;
+}
+
+.wallet-options div {
+  text-align: center;
+  margin: 10px;
+}
+
 .investors-market {
   padding: 20px;
   background-color: #1c003a; /* Dark purple background */
@@ -456,14 +464,15 @@ body {
 }
 
 .divider {
-      display: flex;
-      align-items: center;
-      margin: 20px 0;
-    }
-    .divider::before,
-    .divider::after {
-      content: "";
-      flex: 1;
-      height: 1px;
-      background: #aaa;
-    }
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: #aaa;
+}

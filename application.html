@@ -14,25 +14,64 @@
   </button>
 
   <div class="sidebar" id="sidebar">
-    <a class="navbar-brand" href="index.html">
-      <img
-        src="images/logo.png"
-        alt="Starkcord"
-        class="me-2"
-        style="width: 40px; height: 40px;"
-      />
-      <span class="text-white fs-5">Starkcord</span>
-    </a>
+  <!-- Logo Section -->
+  <a class="navbar-brand" href="index.html">
+    <img
+      src="images/logo.png"
+      alt="Company Logo"
+      class="me-2"
+      style="width: 40px; height: 40px;"
+    />
+    <span class="text-white fs-5">Starkcord</span>
+  </a>
 
-    <div class="divider">
-    </div>
+  <!-- User Profile Section -->
+  <div class="profile-section d-flex align-items-center p-3">
+    <img
+      src="images/mdi_user-circle-outline.png"
+      alt="User Avatar"
+      class="rounded-circle me-2"
+      style="width: 40px; height: 40px;"
+    />
+    <span class="text-white">John Doe</span>
+  </div>
 
-    <a href="#"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
-    <a href="application.html" class="active"><i class="fas fa-clipboard-list "></i> My Applications</a>
-    <a href="message.html" ><i class="fas fa-envelope"></i> Messages</a>
-    <a href="notification.html"><i class="fas fa-bell"></i> Notifications</a>
-    <a href="settings.html"><i class="fas fa-cog"></i> Settings</a>
-    <a href="#"><i class="fas fa-wallet"></i> Connect Wallet</a>
+  <!-- Divider -->
+  <div class="divider my-2">
+    <hr class="text-white" />
+  </div>
+
+  <!-- Navigation Links -->
+  <a href="#" data-bs-toggle="tooltip" title="Dashboard">
+    <i class="fas fa-tachometer-alt"></i> Dashboard
+  </a>
+  <a href="application.html" class="active" data-bs-toggle="tooltip" title="My Applications">
+    <i class="fas fa-clipboard-list"></i> My Applications
+  </a>
+  <a href="message.html" data-bs-toggle="tooltip" title="Messages">
+    <i class="fas fa-envelope"></i> Messages <span class="badge bg-danger">1</span>
+  </a>
+  <a href="notification.html" data-bs-toggle="tooltip" title="Notifications">
+    <i class="fas fa-bell"></i> Notifications <span class="badge bg-warning">1</span>
+  </a>
+  <a href="settings.html" data-bs-toggle="tooltip" title="Settings">
+    <i class="fas fa-cog"></i> Settings
+  </a>
+  <a href="#" data-bs-toggle="tooltip" title="Connect Wallet">
+    <i class="fas fa-wallet"></i> Connect Wallet
+  </a>
+  <a href="logout.html" data-bs-toggle="tooltip" title="Logout">
+    <i class="fas fa-sign-out-alt"></i> Logout
+  </a>
+
+  <!-- Search Bar -->
+  <div class="search-bar my-3">
+    <input
+      type="text"
+      placeholder="Search..."
+      class="form-control"
+    />
+  </div>
   </div>
 
   <div class="content">
