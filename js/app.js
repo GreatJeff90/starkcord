@@ -37,3 +37,4 @@ document.addEventListener("DOMContentLoaded", () => {
       new bootstrap.Tooltip(tooltipTriggerEl);
     });
   });
+

@@ -476,3 +476,115 @@ img {
   height: 1px;
   background: #aaa;
 }
+
+/* Safelock Page Styles */
+
+.safelock-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.safelock-header {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Message Section */
+.message-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.message-section input {
+    width: 250px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-align: center;
+}
+
+.message-section input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.message-section button {
+    background-color: #C03496;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.message-section button:hover {
+    background-color: #e6006f;
+}
+
+/* Set Milestone Section */
+.milestone-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.milestone-section h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Milestone Cards */
+.milestone-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+    justify-content: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.milestone-card {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.milestone-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.milestone-card p {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #C03496;
+}
+
+/* Release Fund Button */
+.release-fund {
+    background-color: #ffffff;
+    color: #C03496;
+    font-size: 1rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.release-fund:hover {
+    background-color: #C03496;
+    color: #ffffff;
+}
